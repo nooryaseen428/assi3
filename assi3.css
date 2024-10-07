@@ -1,0 +1,49 @@
+/* style.css */
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 10px;
+    z-index: 1; /* added for Challenge2 */
+  }
+  
+  /* Main Content styles */
+  main article {
+    width: 60%;
+    margin: 20px auto;
+    background-color: #E0E0E0;
+    padding: 15px;
+  }
+  
+  /* Sidebar styles */
+  main aside {
+    width: 30%;
+    margin: 20px auto;
+    background-color: #D0D0D0;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: 50px; /* adjust top value to position sidebar correctly */
+  }
+  
+  /* Footer styles */
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #C0C0C0;
+    padding: 10px;
+    z-index: 1; /* added for Challenge2 */
+  }
+  
+  /* Challenge1: Sticky Navigation Bar */
+  header nav {
+    position: sticky;
+    top: 0;
+    background-color: #F0F0F0;
+    padding: 10px;
+    z-index: 2; /* added for Challenge2 */
+  }
